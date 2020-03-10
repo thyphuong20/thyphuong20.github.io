@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+#wrapper{
+	width: 965px;
+	height: 1150px;
+	margin: 0 auto 0 auto;
+}
+.header{
+	width: 965px;
+	height: 170px;
+	background-color: #ED8284;
+}
+.logo{
+	width: 160px;
+	height: 170px;
+	background-color: #F8E3E4;
+	float: left;
+	margin-left: 10px;
+}
+.menu{
+	width: 795px;
+	height: 170px;
+	background-color: #F8E3E4;
+	float: right;
+}
+.goimenu{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-left: 100px;
+	
+}
+.menu ul li{
+	display: inline;
+	margin: 20px;
+	float: left;
+	
+}
+.menu ul a{
+	text-decoration: none;
+	text-align: center;	
+	color: #890B0D;
+	font-size: 18px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+#content{
+	width: 965px;
+	height: 858px;
+	background-color: #FFFFFF;
+}
+.info{
+	width: 965px;
+	height: 550px;
+	background-color: #BF9DCB;
+	float: left;
+}
+.ron{
+	width: 965px;
+	height: 83px;
+	background-color: #F0B3CC;
+	padding-top: 20px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ron h1{
+	color:#5B0827;
+	width: 965px;
+	height: 83px;
+	line-height: 60px;
+	text-align: center;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.khungbao{
+	width: 965px;
+	height: 150px;
+	background-color: #FFFFFF;
+	float: left; 
+	
+}
+.khung{
+	height:150px;
+	width: 230px;
+	background: #1DAECC;
+	float: left;
+	margin-left: 10px;
+}
+#footer{
+	width: 965px;
+	height: 100px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-top: 10px;
+	border-top: 2px solid #EEC6D9;
+	border-bottom: 2px solid #EEC6D9;
+	
+}
+#footer h3{
+	color: wheat;
+	margin-top:40px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
